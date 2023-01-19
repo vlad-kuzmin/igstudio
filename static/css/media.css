@@ -53,4 +53,13 @@
     .attorneys__description_title, .attorneys__description {
         padding-left: 0;
     }
+
+    .practice_area__grid_wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+    }
+
+    .grid-2 {
+        grid-column: span 1 / span 1 !important;
+    }
 }

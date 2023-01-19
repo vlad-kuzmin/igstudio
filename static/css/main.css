@@ -237,3 +237,48 @@ body {
     border-radius: 23px;
     padding: 10px;
 }
+
+/* PRACTICE AREAS */
+
+.practice_areas {
+    background: #1D1D1DFF;
+    padding-top: 170px;
+}
+
+.practice_areas__title {
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.practice_area__grid_wrapper {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, minmax(0, 450px));
+    grid-gap: 20px;
+}
+
+.grid-2 {
+    grid-column: span 2 / span 2;
+}
+
+.gallery_elem {
+    border-radius: 15px;
+}
+
+.gallery_img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.gallery_text {
+    position: relative;
+    top: -60%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
