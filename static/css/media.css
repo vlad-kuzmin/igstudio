@@ -26,6 +26,10 @@
     .about_us__title {
         text-align: center;
     }
+
+    .gallery_text {
+        font-size: 1.2rem;
+    }
 }
 
 @media (min-width: 0px) and (max-width: 769px) {
@@ -40,6 +44,14 @@
     .attorneys__description_title, .attorneys__description {
         padding-left: 0;
     }
+
+    .footer__text_box {
+         margin-bottom: 1.5rem;
+    }
+
+    .copyright__text_box {
+        margin-bottom: 25px;
+    }
     
 }
 
@@ -48,6 +60,12 @@
         width: 100%;
         min-width: 100px;
     }
+
+    .gallery_text {
+        font-size: 1rem;
+        top: -30%;
+    }
+
 }
 
 @media (min-width: 0px) and (max-width: 450px) {
