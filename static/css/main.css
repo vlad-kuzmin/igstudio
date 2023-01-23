@@ -75,7 +75,7 @@ body {
 }
 
 .menu_img {
-    width: 35px;
+    width: 30px;
     margin: auto 0 auto 0;
 }
 
@@ -213,14 +213,14 @@ body {
 
 .present_img {
     width: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
 }
 
 .card_title {
     font-size: 1.5rem;
     font-weight: 500;
     color: #FFFFFF;
-    margin: 0 0 10px 0;
+    margin: 0 0 26px 0;
 }
 
 .card_text {
@@ -228,6 +228,7 @@ body {
     font-weight: 500;
     color: #FFFFFF;
     opacity: 0.3;
+    margin: 0 0 22px 0;
 }
 
 .read_more_btn {
@@ -236,7 +237,7 @@ body {
     background: #E3B748;
     font-size: 0.9rem;
     border-radius: 23px;
-    padding: 10px;
+    padding: 15px;
 }
 
 /* PRACTICE AREAS */
