@@ -1,6 +1,6 @@
 
 @media (min-width: 0px) and (max-width: 995px) {
-    .nav_list__elem {
+    .nav_list {
         display: none;
     }
 
