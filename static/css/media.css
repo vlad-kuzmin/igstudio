@@ -16,6 +16,16 @@
         flex: 0 0 100%;
 		max-width: 100%;
     }
+
+    .grid_wrapper {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 991px) { 
+    .about_us__title {
+        text-align: center;
+    }
 }
 
 @media (min-width: 0px) and (max-width: 769px) {
